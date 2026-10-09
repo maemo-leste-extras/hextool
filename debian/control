@@ -1,0 +1,56 @@
+Source: hextool
+Section: user/utilities
+Priority: optional
+Maintainer: Christian Weniger <less_to_space@web.de>
+Build-Depends: debhelper (>= 10),
+    qtbase5-dev, 
+    qtbase5-dev-tools, 
+    qt5-qmake, 
+    libqt5maemo5-dev, 
+    libqt5x11extras5-dev,
+    cdbs
+Standards-Version: 3.7.3
+Homepage: http://www.harkin.org/HexTool
+XSBC-Bugtracker: https://git.maemo.org/leste-extras/hextool/issues
+Vcs-Git: https://git.maemo.org/leste-extras/hextool/
+Vcs-Browser: https://git.maemo.org/leste-extras/hextool/
+
+Package: hextool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: HexTool is a simple calculator for hex, bin and dec.
+ HexTool is a simple yet effective calculator/tool; invaluable for people who work with Hex and Binary. 
+ Now you can convert between Hex, Binary, Octal and Decimal on the fly. http://sourceforge.net/projects/hextool/
+XB-Maemo-Display-Name: HexTool
+XB-Maemo-Icon-26: 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
+ kW55dcVst/kPYxGosn+y9sMAAAAASUVORK5CYII=

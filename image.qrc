@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/ownresource">
+        <file>deploy/icons/48x48/hextool.png</file>
+    </qresource>
+</RCC>
