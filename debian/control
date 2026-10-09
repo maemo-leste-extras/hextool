@@ -2,18 +2,12 @@ Source: hextool
 Section: user/utilities
 Priority: optional
 Maintainer: Christian Weniger <less_to_space@web.de>
-Build-Depends: debhelper (>= 10),
-    qtbase5-dev, 
-    qtbase5-dev-tools, 
-    qt5-qmake, 
-    libqt5maemo5-dev, 
-    libqt5x11extras5-dev,
-    cdbs
+Build-Depends: debhelper-compat (= 13),
+    qt6-base-dev,
+    qt6-maemo,
+    cmake
 Standards-Version: 3.7.3
 Homepage: http://www.harkin.org/HexTool
-XSBC-Bugtracker: https://git.maemo.org/leste-extras/hextool/issues
-Vcs-Git: https://git.maemo.org/leste-extras/hextool/
-Vcs-Browser: https://git.maemo.org/leste-extras/hextool/
 
 Package: hextool
 Architecture: any
